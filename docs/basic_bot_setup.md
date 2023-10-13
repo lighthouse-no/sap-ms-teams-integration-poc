@@ -61,3 +61,13 @@ Only then will you see the error details.
 
 In my case, the error was due to the fact that both the long and short description field fields were empty.
 These can be corrected by editing the template manifest in `./src/manifest/manifest.json`
+
+## Deployed Bot
+
+Once the deployment errors are fixed, the bot can bee added to Teams as an App.
+
+You then can send a message to the bot via the app which uses the temporary `ngrok` public URL to route the request to the app running on your local server.
+
+You can see the request arrive when a message is printed to the `gulp ngrok-serve` console; however, the response stated in the tutorial is not displayed in Teams.
+
+Nonetheless, this is the process of setting up a minimal chat bot in MS Teams
