@@ -4,8 +4,8 @@ If you follow the instructions for [setting up a conversational bot](https://lea
 
 ## Unsupported Schema Version
 
-The command `gulp ngrok-serve --debug` first invokes `gulp manifest` to build `manifest.json` file.
-This is important as specific values such as the bot's app id and secret stored in the `.env` file are substituted for placeholders such as `${{MICROSOFT_APP_ID}}` found in the template manifest file.
+The command `gulp ngrok-serve --debug` first invokes `gulp manifest` to the build `manifest.json` file.
+This is important a necessary step because the manifest is built from a template that contains variable names (such as `${{MICROSOFT_APP_ID}}`) that need to be substituted for the corresponding values found in the `.env` file.
 
 However, when `gulp manifest` runs, it issues a warning saying `Unable to find "1.16" amongst supported schemas.`
 
