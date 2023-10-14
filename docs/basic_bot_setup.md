@@ -26,7 +26,7 @@ After this, the `gulp ngrok-serve` command will correctly generate an app ZIP fi
 
 The tutorial instructions describe a fix that they say is needed if, after building the app, you cannot find a `./package` folder.
 
-The fix tells you to install the preview version of `yoteams-deploy`; however, if these instructions are followed, then I got a different error
+The fix tells you to install the preview version of `yoteams-deploy`, but ***do not do this*** because, at least in my case, they simply produce a different (but more severe) error:
 
 ```shell
 $ gulp ngrok-serve
