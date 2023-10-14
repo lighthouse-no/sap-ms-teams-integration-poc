@@ -44,13 +44,16 @@ Instead change the require of index.js in /Users/chris/Developer/AkerBP/Conversa
 }
 ```
 
-To correct this, the line in `package.json` that declares the dependency to `yoteams-deplpy` should be changed back to
+If you have applied this *"fix"*, you need to back it out.
+To do this, edit the line in `package.json` that declares the dependency to `yoteams-deplpy` and change it back to
 
 ```json
     "yoteams-deploy": "1.4"
 ```
 
 Then rerun `npm i`
+
+Correcting the schema version number seems to be all that is needed to get the app ZIP file generated in the `./package` directory.
 
 ## Deployment Errors
 
