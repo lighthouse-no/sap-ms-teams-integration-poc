@@ -20,7 +20,7 @@ Even though Microsoft state that `1.16` is the latest schema version, you must c
   "manifestVersion": "1.13",
 ```
 
-After this, the `gulp ngrok-serve` command will correct;y generate an app ZIP file
+After this, the `gulp ngrok-serve` command will correctly generate an app ZIP file
 
 ## Fix Involving the Preview Version of `yoteams-deploy`
 
