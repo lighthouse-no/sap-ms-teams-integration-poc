@@ -1,7 +1,7 @@
 # Initial Azure Configuration
 
 Log on to your Azure account and create a Resource group.
-Then Within this resource group create an Azure Bot.
+Then within this resource group create an Azure Bot.
 
 Here, the resource group has been called `lh_bot_group` and the bot has been called `lh_convo_bot`.
 
