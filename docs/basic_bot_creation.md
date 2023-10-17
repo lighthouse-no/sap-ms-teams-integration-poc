@@ -1,4 +1,4 @@
-# Basic Bot Setup
+# Basic Bot Creation
 
 If you follow the instructions for [setting up a conversational bot](https://learn.microsoft.com/en-us/training/modules/msteams-conversation-bots/3-exercise-conversation-bots), everything works nicely until you get to the section called "Test the conversation bot"
 
