@@ -1,4 +1,4 @@
-# Configure Bot's Diagnostic Settings
+# Configure the Bot to use the Log Analytics Workspace Instance
 
 Select your bot from *Home* &rarr; *Resource Groups* &rarr; &lt;your resource group&gt; &rarr; &lt;bot name&gt;, then under *Monitoring*, select *Diagnostic settings*.
 
@@ -6,7 +6,7 @@ Select your bot from *Home* &rarr; *Resource Groups* &rarr; &lt;your resource gr
 
 Give the diagnostic configuration a name (in our case `lh_convo_bot_diagnostics`), then select:
 
-* Messages coming from a client over the various communication channels
+* Requests from the channels to the bot
 * All metrics
 * Send these massages to the log analytics workspace we've just created
 
