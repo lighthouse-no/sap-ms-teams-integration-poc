@@ -1,4 +1,4 @@
-# Basic Bot Creation
+# Create a BAsic MS Teams App
 
 If you follow the instructions for [setting up a conversational bot](https://learn.microsoft.com/en-us/training/modules/msteams-conversation-bots/3-exercise-conversation-bots), everything works nicely until you get to the section called "Test the conversation bot"
 
@@ -65,9 +65,9 @@ Only then will you see the error details.
 In my case, the error was due to the fact that both the long and short description field fields were empty.
 These can be corrected by editing the template manifest in `./src/manifest/manifest.json`
 
-## Deployed Bot
+## Deployed App to MS Teams
 
-Once the deployment errors are fixed, the bot can bee added to Teams as an App.
+Once the deployment errors are fixed, the bot can be added to Teams as an App.
 
 You then can send a message to the bot via the app which uses the temporary `ngrok` public URL to route the request to the app running on your local server.
 
