@@ -15,9 +15,9 @@ Select your subscription, then on the next screen, select Resource Provider from
 
 If this resource provider is not registered, then select it and click on register at the top of the screen.
 
-## Add Diagnostic Settings to your Bot
+## Create Log Analytics Workspace Instance
 
-Once insights functionality has been added to your subscription, you must now declare, for a given resource group, where you want analytics information to be written.
+Once your Azure subscription has registered the use of insights functionality, you must now declare, for a given resource group, where you want analytics information to be written.
 There are several possible choices, but here we will create a Log Analytics Workspace.
 
 From the Azure front screen, search for "Log Analytics workspaces" and press create:
