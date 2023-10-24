@@ -9,6 +9,7 @@ Before an MS Teams app can be built, you must first configure an Azure Bot withi
 * Azure Configuration
    * [Create an Azure Bot](./docs/azure_bot_creation.md)
    * [Azure Log Configuration](./docs/azure_log_config.md)
+   * [Configure Bot to Use Log Analytics Workspace](./docs/azure_bot_config.md)
    * [Generate Project Using `yo teams`](./docs/yo_teams.md)
    * [Configure environment variables](./docs/env_vars.md)
 * [Creating a MS Teams App](./docs/basic_teams_app.md)
