@@ -24,6 +24,6 @@ From the Azure front screen, search for "Log Analytics workspaces" and press cre
 
 ![Azure Create Log Analytics Workspace](../img/azure_create_law.png)
 
-Then for select the resource group within which your bot exists and give the log analytics workspace instance a name.
+Select the resource group within which your bot exists and give the log analytics workspace instance a name.
 
 ![Azure Create Log Analytics Workspace Instance](../img/azure_create_law_instance.png)
