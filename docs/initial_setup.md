@@ -11,7 +11,7 @@
 
    ![Upload custom apps](../img/upload_custom_apps.png)
 
-   Micosoft define sideloading as:
+   Microsoft define sideloading as:
 
    > This setting determines if a user can upload a custom app package in the Teams app. Turning it on lets you create or develop a custom app to be used personally or across your organization without having to submit it to the Teams app store. Uploading a custom app also lets you test an app before you distribute it more widely by only assigning it to a single user or group of users.
 
