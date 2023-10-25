@@ -8,6 +8,6 @@ Give the diagnostic configuration a name (in our case `lh_convo_bot_diagnostics`
 
 * Requests from the channels to the bot
 * All metrics
-* Send these massages to the log analytics workspace we've just created
+* Send these messages to the log analytics workspace we've just created
 
 ![Configure Bot Diagnostics](../img/azure_bot_diagnostics_config.jpg)
