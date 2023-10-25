@@ -7,4 +7,4 @@ Here, the resource group has been called `lh_bot_group` and the bot has been cal
 
 Once the bot is created, you must additionally create a secret and make a note of the password.
 
-![Azure Bot Configuration](../img/azure_bot_config.png)
+![Azure Bot Configuration](../img/azure_bot_config.jpg)

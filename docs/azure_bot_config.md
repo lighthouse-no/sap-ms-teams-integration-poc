@@ -2,7 +2,7 @@
 
 Select your bot from *Home* &rarr; *Resource Groups* &rarr; &lt;your resource group&gt; &rarr; &lt;bot name&gt;, then under *Monitoring*, select *Diagnostic settings*.
 
-![Add Diagnostics](../img/azure_bot_add_diagnostics.png)
+![Add Diagnostics](../img/azure_bot_add_diagnostics.jpg)
 
 Give the diagnostic configuration a name (in our case `lh_convo_bot_diagnostics`), then select:
 
@@ -10,4 +10,4 @@ Give the diagnostic configuration a name (in our case `lh_convo_bot_diagnostics`
 * All metrics
 * Send these massages to the log analytics workspace we've just created
 
-![Configure Bot Diagnostics](../img/azure_bot_diagnostics_config.png)
+![Configure Bot Diagnostics](../img/azure_bot_diagnostics_config.jpg)

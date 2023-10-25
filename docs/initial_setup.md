@@ -5,11 +5,11 @@
 
    From your [Teams Admin Centre](https://admin.teams.microsoft.com/), select *Teams apps* &rarr; *Setup policies*
 
-   ![Teams Setup Policies](../img/teams_setup_policies.png)
+   ![Teams Setup Policies](../img/teams_setup_policies.jpg)
 
    Select the *Global (Org-wide default)* policy and switch on *Upload custom apps*
 
-   ![Upload custom apps](../img/upload_custom_apps.png)
+   ![Upload custom apps](../img/upload_custom_apps.jpg)
 
    Microsoft define sideloading as:
 
@@ -24,9 +24,9 @@
 
 2. Check that sideloading has been correctly enbled.
 
-   In MS Teams, click on <img src="../img/icon_apps.png" height="32" /> at the bottom of the toolbar on the left, then select <img src="../img/icon_manage_your_apps.png" height="32" /> at the bottom of the screen and then <img src="../img/icon_upload_an_app.png" height="32" />
+   In MS Teams, click on <img src="../img/icon_apps.jpg" height="32" /> at the bottom of the toolbar on the left, then select <img src="../img/icon_manage_your_apps.jpg" height="32" /> at the bottom of the screen and then <img src="../img/icon_upload_an_app.jpg" height="32" />
 
-   If sideloading has been enable, you will see this option ![Upload customised app](../img/upload_customised_app.png)
+   If sideloading has been enable, you will see this option ![Upload customised app](../img/upload_customised_app.jpg)
 
 3. In VSCode, install the Teams Toolkit plugin in and connect to your Teams installation using your admin account.
    When the plugin connects to your Teams account, it will automatically check whether sideloading is enabled.
