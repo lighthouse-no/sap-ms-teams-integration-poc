@@ -28,4 +28,4 @@ Select the resource group within which your bot exists and give the log analytic
 
 ![Azure Create Log Analytics Workspace Instance](../img/azure_create_law_instance.jpg)
 
-Once the log analytics workspace instance has been created, you can now configure your bot to use this workspace.
+Once the log analytics workspace instance has been created, you can now configure your bot's log information to be written into this workspace.
