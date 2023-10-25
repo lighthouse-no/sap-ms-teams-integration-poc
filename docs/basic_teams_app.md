@@ -11,7 +11,7 @@ However, when `gulp manifest` runs, it issues a warning saying `Unable to find "
 
 This turns out to be more serious than just a warning because it prevents the manifest file from being built &mdash; which in turn means that the `./package` folder containing the app ZIP file is not created.
 
-Even though Microsoft state that `1.16` is the latest schema version, you use schame version `1.13`.
+Even though Microsoft state that `1.16` is the latest schema version, you change this to version `1.13`.
 The version number needs to be changed in two places: the `$schema` and `manifestVerions` fields in the template `./src/manifest/manifest.json`.
 
 Now the `gulp manifest` file will behave itself.
