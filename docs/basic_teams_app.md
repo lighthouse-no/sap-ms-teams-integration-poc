@@ -14,7 +14,7 @@ This turns out to be more serious than just a warning because it prevents the ma
 Even though Microsoft state that `1.16` is the latest schema version, you should use version `1.13` instead.
 The version number needs to be changed in two places: the `$schema` and `manifestVerions` fields in the template `./src/manifest/manifest.json`.
 
-Now the `gulp manifest` file will behave itself.
+Now the `gulp manifest` command will generate a manifest file.
 
 ```json
 {
@@ -27,9 +27,10 @@ After this, the `gulp ngrok-serve` command will correctly generate an app ZIP fi
 
 ## Fix Involving the Preview Version of `yoteams-deploy`
 
-The tutorial instructions describe a fix that they say is needed if, after building the app, you cannot find a `./package` folder.
+The tutorial instructions describe a fix that they say is needed if, after building the app, you cannot find a `./package` directory.
+However, since by changing the schema version number, we have successfully created a `manifest.json` file in the `./package` directory, the recommended fix is superfluous.
 
-The fix tells you to install the preview version of `yoteams-deploy`, but ***do not do this*** because applying this fix, at least in my case, simply causes a different (but more severe) error to be produced:
+If you do install the preview version of `yoteams-deploy`, then, at least in my case, it actually causes a different (but more severe) error:
 
 ```shell
 $ gulp ngrok-serve
