@@ -9,9 +9,12 @@ This is an important step because the manifest is built from a template that con
 
 However, when `gulp manifest` runs, it issues a warning saying `Unable to find "1.16" amongst supported schemas.`
 
-This turns out to be more than a warning, because the manifest file is not built, which in turn means that the `./package` folder containing the app ZIP file is not created.
+This turns out to be more serious than just a warning because it prevents the manifest file from being built &mdash; which in turn means that the `./package` folder containing the app ZIP file is not created.
 
-Even though Microsoft state that `1.16` is the latest schema version, you must change the schema version in the `$schema` and `manifestVerions` fields in the template `./src/manifest/manifest.json` to be `1.13`, otherwise the build process fails.
+Even though Microsoft state that `1.16` is the latest schema version, you use schame version `1.13`.
+The version number needs to be changed in two places: the `$schema` and `manifestVerions` fields in the template `./src/manifest/manifest.json`.
+
+Now the `gulp manifest` file will behave itself.
 
 ```json
 {
@@ -26,7 +29,7 @@ After this, the `gulp ngrok-serve` command will correctly generate an app ZIP fi
 
 The tutorial instructions describe a fix that they say is needed if, after building the app, you cannot find a `./package` folder.
 
-The fix tells you to install the preview version of `yoteams-deploy`, but ***do not do this*** because, at least in my case, they simply produce a different (but more severe) error:
+The fix tells you to install the preview version of `yoteams-deploy`, but ***do not do this*** because applying this fix, at least in my case, simply causes a different (but more severe) error to be produced:
 
 ```shell
 $ gulp ngrok-serve
